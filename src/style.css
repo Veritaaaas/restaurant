@@ -1,0 +1,31 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-image: url("https://i.ytimg.com/vi/6lvZ9x2ntoU/maxresdefault.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttons {
+  display: flex;
+}
+
+
+button {
+  color: white;
+  height: 40px;
+  width: 100px;
+  border: none;
+  background-color: transparent;
+}
