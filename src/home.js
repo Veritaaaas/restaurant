@@ -1,5 +1,8 @@
 function createHome() {
     let content = document.querySelector('#content');
+    while (content.firstChild) {
+        content.removeChild(content.firstChild);
+    }
 
     let title = document.createElement('div');
     let container = document.createElement('div');

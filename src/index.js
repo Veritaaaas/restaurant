@@ -15,3 +15,7 @@ home.addEventListener('click', () => {
 menu.addEventListener('click', () => {
     createMenu();
 });
+
+contact.addEventListener('click', () => {
+    createContact();
+});
