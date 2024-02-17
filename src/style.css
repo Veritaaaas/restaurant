@@ -168,3 +168,44 @@ footer a {
   font-size: 20px;
   font-family: 'Roboto', sans-serif;
 }
+
+/* contact page */
+.contact_container {
+  border: 1px solid black;
+  height: fit-content;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  font-family: "Dancing Script", cursive;
+  padding-top: 1%;
+  margin: 30px;
+  font-family: 'Roboto', sans-serif;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  margin-bottom: 100px;
+}
+
+.contact_info {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact_info i {
+  font-size: 20px;
+  margin: 20px;
+}
+
+.social_media {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+iframe {
+  height: 300px;
+  border: none;
+  margin: 20px;
+}
